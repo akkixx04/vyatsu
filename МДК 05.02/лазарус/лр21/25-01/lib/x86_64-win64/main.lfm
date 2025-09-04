@@ -1,0 +1,102 @@
+object fMain: TfMain
+  Left = 579
+  Height = 399
+  Top = 262
+  Width = 730
+  BorderStyle = bsDialog
+  Caption = 'Телефонный справочник'
+  ClientHeight = 399
+  ClientWidth = 730
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '3.8.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 33
+    Top = 0
+    Width = 730
+    Align = alTop
+    ClientHeight = 33
+    ClientWidth = 730
+    Color = 12286359
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object bSort: TSpeedButton
+      Left = 552
+      Height = 25
+      Top = 4
+      Width = 175
+      Caption = 'Сортировать список'
+      Color = 15391191
+      Font.CharSet = ANSI_CHARSET
+      Font.Name = '@Malgun Gothic'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      OnClick = bSortClick
+      ParentFont = False
+    end
+    object bEdit: TSpeedButton
+      Left = 184
+      Height = 25
+      Top = 4
+      Width = 175
+      Caption = 'Редактировать контакт'
+      Color = 15391191
+      Font.CharSet = ANSI_CHARSET
+      Font.Name = '@Malgun Gothic'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      OnClick = bEditClick
+      OnDblClick = bEditClick
+      ParentFont = False
+    end
+    object bDel: TSpeedButton
+      Left = 368
+      Height = 25
+      Top = 4
+      Width = 175
+      Caption = 'Удалить контакт'
+      Color = 15391191
+      Font.CharSet = ANSI_CHARSET
+      Font.Name = '@Malgun Gothic'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      OnClick = bDelClick
+      ParentFont = False
+    end
+    object bAdd: TSpeedButton
+      Left = 3
+      Height = 25
+      Top = 4
+      Width = 175
+      Caption = 'Добавить контакт'
+      Color = 15391191
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -15
+      Font.Name = '@Malgun Gothic'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      OnClick = bAddClick
+      ParentFont = False
+    end
+  end
+  object SG: TStringGrid
+    Left = 0
+    Height = 366
+    Top = 33
+    Width = 730
+    Align = alClient
+    Color = 15391191
+    ColCount = 3
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+  end
+end

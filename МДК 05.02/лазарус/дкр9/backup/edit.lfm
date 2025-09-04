@@ -1,0 +1,170 @@
+object fEdit: TfEdit
+  Left = 647
+  Height = 483
+  Top = 256
+  Width = 400
+  BorderStyle = bsDialog
+  Caption = 'Редактор шмотки'
+  ClientHeight = 483
+  ClientWidth = 400
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 20
+    Top = 8
+    Width = 126
+    Caption = 'Введите название'
+  end
+  object eName: TEdit
+    Left = 16
+    Height = 28
+    Top = 32
+    Width = 230
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 20
+    Top = 120
+    Width = 100
+    Caption = 'Цена в рублях'
+  end
+  object eSrok: TEdit
+    Left = 16
+    Height = 28
+    Top = 144
+    Width = 230
+    NumbersOnly = True
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 20
+    Top = 176
+    Width = 206
+    Caption = 'Введите страну изготовления'
+  end
+  object eCountry: TEdit
+    Left = 16
+    Height = 28
+    Top = 200
+    Width = 230
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 20
+    Top = 232
+    Width = 97
+    Caption = 'Выберите тип'
+  end
+  object CBNote: TComboBox
+    Left = 16
+    Height = 28
+    Top = 256
+    Width = 230
+    ItemHeight = 20
+    Items.Strings = (
+      'Лонгслив'
+      'Футболка'
+      'Майка'
+      'Зип-худи'
+      'Худи'
+      'Куртка'
+      'Свитшот'
+      'Топ'
+      'Кроп футболка'
+      'Кроп кофта'
+      'Указано в названии'
+    )
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 440
+    Width = 160
+    Caption = 'Сохранить'
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 4
+  end
+  object BitBtn2: TBitBtn
+    Left = 200
+    Height = 30
+    Top = 440
+    Width = 160
+    Cancel = True
+    Caption = 'Не сохранять'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 5
+  end
+  object Date1: TDateTimePicker
+    Left = 16
+    Height = 28
+    Top = 88
+    Width = 99
+    CenturyFrom = 1941
+    MaxDate = 2958465
+    MinDate = -53780
+    TabOrder = 6
+    TrailingSeparator = False
+    TextForNullDate = 'NULL'
+    LeadingZeros = True
+    Kind = dtkDate
+    TimeFormat = tf24
+    TimeDisplay = tdHMS
+    DateMode = dmComboBox
+    Date = 45809
+    Time = 0.88866443286679
+    UseDefaultSeparators = True
+    HideDateTimeParts = []
+    MonthNames = 'Long'
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 20
+    Top = 64
+    Width = 189
+    Caption = 'Введите дату изготовления'
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 20
+    Top = 288
+    Width = 158
+    Caption = 'Присутствует ли бирка'
+  end
+  object Bir: TComboBox
+    Left = 16
+    Height = 28
+    Top = 319
+    Width = 230
+    ItemHeight = 20
+    ItemIndex = 0
+    Items.Strings = (
+      'Да'
+      'Нет'
+    )
+    TabOrder = 7
+    Text = 'Да'
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 20
+    Top = 360
+    Width = 47
+    Caption = 'Состав'
+  end
+  object Sostav: TEdit
+    Left = 16
+    Height = 28
+    Top = 392
+    Width = 230
+    TabOrder = 8
+  end
+end

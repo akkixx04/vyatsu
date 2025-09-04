@@ -1,0 +1,159 @@
+object Form1: TForm1
+  Left = 217
+  Height = 500
+  Top = 220
+  Width = 750
+  Caption = 'Таймер'
+  ClientHeight = 500
+  ClientWidth = 750
+  Constraints.MinHeight = 500
+  Constraints.MinWidth = 750
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.8.0.0'
+  object Minutes: TSpinEdit
+    AnchorSideTop.Control = lbMinutes
+    Left = 40
+    Height = 46
+    Top = 76
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 66
+    EditorEnabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxValue = 59
+    ParentFont = False
+    TabOrder = 0
+    Value = 1
+  end
+  object lbMinutes: TLabel
+    AnchorSideTop.Control = Owner
+    Left = 40
+    Height = 50
+    Top = 10
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 10
+    Caption = 'Минуты'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Seconds: TSpinEdit
+    AnchorSideTop.Control = lbSeconds
+    Left = 453
+    Height = 45
+    Top = 77
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 60
+    EditorEnabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxValue = 59
+    ParentFont = False
+    TabOrder = 1
+  end
+  object lbSeconds: TLabel
+    AnchorSideTop.Control = Owner
+    Left = 453
+    Height = 43
+    Top = 17
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 17
+    Caption = 'Секунды'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Stop: TButton
+    AnchorSideTop.Control = Owner
+    Left = 304
+    Height = 82
+    Top = 136
+    Width = 113
+    Anchors = [akTop]
+    BorderSpacing.Around = 136
+    Caption = 'Стоп'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = StopClick
+  end
+  object Reset: TButton
+    AnchorSideTop.Control = Seconds
+    Left = 531
+    Height = 82
+    Top = 136
+    Width = 113
+    Anchors = [akTop]
+    BorderSpacing.Around = 59
+    Caption = 'Сброс'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = ResetClick
+  end
+  object Start: TButton
+    AnchorSideTop.Control = Minutes
+    Left = 77
+    Height = 82
+    Top = 136
+    Width = 118
+    Anchors = [akTop]
+    BorderSpacing.Around = 60
+    Caption = 'Старт'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = StartClick
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 232
+    Top = 232
+  end
+end

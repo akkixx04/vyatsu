@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="26yclzAduE5tmZx3Jer9">
+    <mxGraphModel dx="1290" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-2" target="AeF7qTXhJniuWAPJxYnp-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-4" target="AeF7qTXhJniuWAPJxYnp-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-4" value="Ввод n и массива a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="130" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-5" target="AeF7qTXhJniuWAPJxYnp-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-5" value="chet := 0;&lt;div&gt;nechet := 0;&lt;/div&gt;&lt;div&gt;i := 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="105" y="200" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-6" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="660" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-7" target="AeF7qTXhJniuWAPJxYnp-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-7" value="Цикл 1" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="105" y="510" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-8" target="AeF7qTXhJniuWAPJxYnp-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-8" value="Цикл 1&lt;div&gt;i &amp;gt; n&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="270" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-10" target="AeF7qTXhJniuWAPJxYnp-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FmcpIU1JxIybbmSUSAJK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-10" target="AeF7qTXhJniuWAPJxYnp-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-10" value="a[ i ] mod 2 = 0&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="103.75" y="340" width="132.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-14" target="AeF7qTXhJniuWAPJxYnp-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-14" value="chet += 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="105" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FmcpIU1JxIybbmSUSAJK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-16" target="AeF7qTXhJniuWAPJxYnp-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="490" />
+              <mxPoint x="170" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-16" value="nechet += 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="245" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeF7qTXhJniuWAPJxYnp-20" target="AeF7qTXhJniuWAPJxYnp-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-20" value="Вывод chet и nechet" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="584" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-23" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="281.25" y="150" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-24" value="n - количество элементов массива&amp;nbsp;&lt;br&gt;a - заданный массив" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="302.25" y="140" width="207.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AeF7qTXhJniuWAPJxYnp-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="236.25" y="155" as="sourcePoint" />
+            <mxPoint x="551.25" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-26" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="267.5" y="222.5" width="55" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-27" value="chet - счетчик для количества четных чисел в массиве&lt;br&gt;nechet - счетчик для количества нечетных" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="301" y="210" width="219" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AeF7qTXhJniuWAPJxYnp-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="225" as="sourcePoint" />
+            <mxPoint x="550" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-32" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="273.29" y="290.16" width="45.94" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-33" value="Цикл для перебора элементов массива и проверки их четности или нечетности" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="302.25" y="280" width="207.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AeF7qTXhJniuWAPJxYnp-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="236.25" y="295" as="sourcePoint" />
+            <mxPoint x="551.25" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-35" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="323.75" y="370" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-36" value="mod - остаток от деления" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="344.75" y="360" width="207.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AeF7qTXhJniuWAPJxYnp-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="375" as="sourcePoint" />
+            <mxPoint x="666.25" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-38" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="273" y="604" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-39" value="Вывод результата" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="293" y="594" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="AeF7qTXhJniuWAPJxYnp-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="233" y="609" as="sourcePoint" />
+            <mxPoint x="548" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-42" value="да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="408" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="AeF7qTXhJniuWAPJxYnp-43" value="нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="225" y="358" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HoRwxVO0aHpvCtT7OfJ0-1" value="ЗАДАЧА №61&lt;div&gt;Подсчитайте количество четных и нечетных элементов в массиве.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="253" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

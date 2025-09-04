@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="28" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="functioncalculator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FunctionCalculator"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="45"/>
+        <CursorPos X="8" Y="47"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="functioncalculator.pas"/>
+        <Caret Line="8" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="functioncalculator.pas"/>
+        <Caret Line="49" Column="3" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="functioncalculator.pas"/>
+        <Caret Line="16" Column="5" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="functioncalculator.pas"/>
+        <Caret Line="15" Column="30" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="functioncalculator.pas"/>
+        <Caret Line="18" Column="18" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="functioncalculator.pas"/>
+        <Caret Line="19" Column="18" TopLine="7"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

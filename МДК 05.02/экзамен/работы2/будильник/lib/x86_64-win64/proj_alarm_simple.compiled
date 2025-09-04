@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1513316847"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq &quot;-FiD:\мдк 05.02\будильник\lib\x86_64-win64&quot; -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\freetype\lib\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuD:\мдк 05.02\будильник\&quot; &quot;-FUD:\мдк 05.02\будильник\lib\x86_64-win64\&quot; &quot;-FED:\мдк 05.02\будильник\&quot; &quot;-oD:\мдк 05.02\будильник\proj_alarm_simple.exe&quot; -dLCL -dLCLwin32 proj_alarm_simple.lpr"/>
+</CONFIG>

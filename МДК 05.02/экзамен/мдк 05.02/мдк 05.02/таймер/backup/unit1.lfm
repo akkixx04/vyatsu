@@ -1,0 +1,228 @@
+object Form1: TForm1
+  Left = 587
+  Height = 500
+  Top = 270
+  Width = 750
+  Caption = 'Таймер'
+  ClientHeight = 500
+  ClientWidth = 750
+  Constraints.MinHeight = 500
+  Constraints.MinWidth = 750
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.8.0.0'
+  object Minutes: TSpinEdit
+    AnchorSideTop.Control = lbMinutes
+    Left = 24
+    Height = 46
+    Top = 76
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 66
+    EditorEnabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -20
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxValue = 59
+    ParentFont = False
+    TabOrder = 0
+    Value = 1
+  end
+  object lbMinutes: TLabel
+    AnchorSideTop.Control = Owner
+    Left = 24
+    Height = 50
+    Top = 10
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 10
+    Caption = 'Минуты'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Seconds: TSpinEdit
+    AnchorSideTop.Control = lbSeconds
+    Left = 453
+    Height = 45
+    Top = 77
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 60
+    EditorEnabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -20
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxValue = 59
+    ParentFont = False
+    TabOrder = 1
+  end
+  object lbSeconds: TLabel
+    AnchorSideTop.Control = Owner
+    Left = 453
+    Height = 43
+    Top = 17
+    Width = 247
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 17
+    Caption = 'Секунды'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Stop: TButton
+    AnchorSideTop.Control = Owner
+    Left = 304
+    Height = 66
+    Top = 136
+    Width = 113
+    Anchors = [akTop]
+    BorderSpacing.Around = 136
+    Caption = 'стоп'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = StopClick
+  end
+  object Reset: TButton
+    AnchorSideTop.Control = Seconds
+    Left = 531
+    Height = 66
+    Top = 136
+    Width = 113
+    Anchors = [akTop]
+    BorderSpacing.Around = 59
+    Cancel = True
+    Caption = 'сброс'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = ResetClick
+  end
+  object Progress: TProgressBar
+    AnchorSideTop.Control = Stop
+    Left = -70
+    Height = 52
+    Top = 237
+    Width = 820
+    Anchors = [akTop]
+    BorderSpacing.Around = 101
+    Position = 100
+    TabOrder = 4
+  end
+  object Sound: TCheckBox
+    AnchorSideTop.Control = Progress
+    Left = 13
+    Height = 30
+    Top = 386
+    Width = 206
+    AutoSize = False
+    BorderSpacing.Around = 149
+    Caption = 'Звуковой сигнал'
+    Checked = True
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -20
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 5
+  end
+  object Status: TLabel
+    AnchorSideTop.Control = Progress
+    Left = 160
+    Height = 38
+    Top = 305
+    Width = 393
+    Alignment = taCenter
+    Anchors = [akTop]
+    AutoSize = False
+    BorderSpacing.Around = 68
+    Caption = 'готов к работе'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -30
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Start: TButton
+    AnchorSideTop.Control = Minutes
+    Left = 77
+    Height = 66
+    Top = 136
+    Width = 118
+    Anchors = [akTop]
+    BorderSpacing.Around = 60
+    Caption = 'старт'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = StartClick
+  end
+  object BitBtn1: TBitBtn
+    AnchorSideTop.Control = Sound
+    Left = 600
+    Height = 53
+    Top = 430
+    Width = 120
+    BorderSpacing.Around = 44
+    Caption = 'выход'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    Kind = bkClose
+    ModalResult = 11
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 20
+    Top = 308
+  end
+end

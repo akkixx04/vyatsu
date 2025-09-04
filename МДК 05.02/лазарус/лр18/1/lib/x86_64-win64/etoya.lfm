@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 889
+  Height = 321
+  Top = 299
+  Width = 511
+  Caption = 'Form1'
+  ClientHeight = 321
+  ClientWidth = 511
+  DesignTimePPI = 120
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 88
+    Height = 22
+    Top = 8
+    Width = 348
+    Caption = 'Догадайтесь, кто сделал этот проект?'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -20
+    Font.Name = 'Broadway'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 168
+    Height = 48
+    Top = 40
+    Width = 184
+    Caption = 'Щелкните здесь!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Algerian'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label2: TLabel
+    Left = 224
+    Height = 1
+    Top = 104
+    Width = 1
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -20
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic, fsUnderline]
+    ParentFont = False
+  end
+  object BitBtnExit: TBitBtn
+    Left = 400
+    Height = 38
+    Top = 272
+    Width = 94
+    Caption = 'Выход'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -17
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtnExitClick
+    ParentFont = False
+    TabOrder = 1
+  end
+end

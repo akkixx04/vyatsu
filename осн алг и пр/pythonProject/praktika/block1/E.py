@@ -1,0 +1,10 @@
+k = int(input())
+for _ in range(k):
+  n, d = map(int,input().split())
+  a = list(map(int, input().split()))
+  b = sorted(list(map(int, input().split())))
+  a = zip(range(n), a)
+  a = sorted(a, key = lambda x: x[1])
+  b = zip(a, b)
+  b = sorted(b, key = lambda x: x[0])
+  print (" ".join([f"{item[1]}" for item in b]))

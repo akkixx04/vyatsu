@@ -1,0 +1,86 @@
+object fMain: TfMain
+  Left = 147
+  Height = 371
+  Top = 633
+  Width = 1353
+  BorderStyle = bsDialog
+  Caption = 'Чайный справочник'
+  ClientHeight = 371
+  ClientWidth = 1353
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object Panel1: TPanel
+    Left = 1153
+    Height = 371
+    Top = 0
+    Width = 200
+    Align = alRight
+    Anchors = [akTop, akRight]
+    ClientHeight = 371
+    ClientWidth = 200
+    TabOrder = 0
+    object bAdd1: TSpeedButton
+      Left = 0
+      Height = 30
+      Top = 0
+      Width = 200
+      Caption = 'Добавить'
+      OnClick = bAdd1Click
+    end
+    object bEdit: TSpeedButton
+      Left = 0
+      Height = 30
+      Top = 40
+      Width = 200
+      Caption = 'Редактировать'
+      OnClick = bEditClick
+    end
+    object bDel: TSpeedButton
+      Left = 0
+      Height = 30
+      Top = 80
+      Width = 200
+      Caption = 'Удалить'
+      OnClick = bDelClick
+    end
+    object bSave: TSpeedButton
+      Left = 0
+      Height = 30
+      Top = 120
+      Width = 200
+      Caption = 'Сохранить'
+      OnClick = bSaveClick
+    end
+    object bOpen: TSpeedButton
+      Left = 0
+      Height = 30
+      Top = 160
+      Width = 200
+      Caption = 'Открыть'
+      OnClick = bOpenClick
+    end
+  end
+  object SG: TStringGrid
+    Left = 0
+    Height = 371
+    Top = 0
+    Width = 1153
+    Align = alClient
+    ColCount = 6
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+    OnDblClick = bEditClick
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.dat'
+    FileName = 'telehones.dat'
+    Left = 1232
+    Top = 208
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 1224
+    Top = 312
+  end
+end
